@@ -1,0 +1,104 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+// function to multiply big numberes by 2
+
+namespace{
+vector<int> multiplyByTwo(vector<int> &num){
+    vector<int> result;
+    int carry= 0;
+
+    for (int i =0; i < num.size(); i++){
+        int porduct = num[i]*2 + carry;
+        result.push_back(porduct %10);
+        carry = porduct / 10; 
+    }
+
+    while(carry >0){
+        result.push_back(carry%10);
+        carry /= 10;
+    }
+    return result;
+}
+
+// function to find out the 2^n
+
+vector<int> powerOfTwo(int n){
+    vector<int> result;
+    result.push_back(1);
+
+    for(int i=1; i <=n ;i++){
+        result= multiplyByTwo(result);
+    }
+    return result;
+}
+
+//function to sum tooooo big numers
+vector<int>addBigNumbers(vector<int> &num1, vector<int> num2){
+
+    vector<int> result;
+    int carry=0;
+    
+    int maxSize = max(num1.size(), num2.size());
+
+    for (int i =0; i <maxSize; i++){
+
+        int digit1 = (i < maxSize) ? num1[i] : 0;
+        int digit2 = (i < maxSize) ? num2[i] : 0;
+
+        int sum = digit1 +digit2 +carry;
+        result.push_back(sum % 10);
+        carry = sum/ 10; 
+    }
+    if (carry > 0){
+        result.push_back(carry);
+    }
+    return result;
+
+}
+
+// function tpo print big number
+void printBigNumber(vector<int> &num){
+
+    for (int i = num.size()-1; i >= 0; i--){
+        cout << num[i];
+    }
+    cout << endl;
+}}
+
+void power_sum_lab2(){
+    int input_1, input_2;
+
+    do {
+        cout << "enter first positive number > 64";
+        input_1=66;
+
+        if (input_1<=64){
+            cout << "error number must be more than 64" << endl;
+
+        }  
+    } while (input_1<= 64);
+
+do {
+    cout << "enter the second number > 64";
+    input_2= 65;
+
+    if (input_2 <= 64){
+
+        cout << "error number must be > 64" << endl;
+    }
+
+} while (input_2 <= 64);
+
+cout << "calculating 2^" << input_1 << " + 2^" << input_2 << endl;
+vector<int> power1 = powerOfTwo(input_1);
+vector<int> power2 = powerOfTwo(input_2);
+
+vector<int> result= addBigNumbers(power1, power2);
+
+cout << "2^" <<input_1 << " + 2^" << input_2 << " =";
+
+printBigNumber(result);
+}
