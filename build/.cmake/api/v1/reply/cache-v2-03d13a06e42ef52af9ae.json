@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Mohammed/Desktop/Programming/myProject_lab2/build"
+			"value" : "c:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -139,11 +139,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/c++.exe"
+			"value" : "C:/msys64/mingw64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -283,11 +283,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/cc.exe"
+			"value" : "C:/msys64/mingw64/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2"
+			"value" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1379,7 +1379,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build"
+			"value" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build"
 		},
 		{
 			"name" : "myProject_lab2_IS_TOP_LEVEL",
@@ -1403,7 +1403,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2"
+			"value" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy"
 		}
 	],
 	"kind" : "cache",

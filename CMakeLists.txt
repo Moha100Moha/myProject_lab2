@@ -10,5 +10,8 @@ src/fibonacci.cpp
 src/power2.cpp
 src/subtraction.cpp
 src/sum.cpp
+src/lab_functions.h
+
+src/task2.cpp
 ) # executable file is myProject_lab2
 

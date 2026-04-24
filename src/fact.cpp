@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-using namespace std;
+#include "lab_functions.h"
 
 // Function to multiply a vector 
 
@@ -16,10 +16,10 @@ and here also we need only to reed the vector*/
 // поэтому в других файлах можно снова использовать имена вроде multiplyByTwo / printNumber
 // без ошибки «multiple definition». (2) Ясно по смыслу: снаружи предполагается вызывать
 // только функцию-обёртку (например run_*), а не эти детали реализации.
-namespace{
+namespace m{
 
-vector<int> multiply(vector<int>& num, int multiplier){
-    vector<int> result;
+std::vector<int> multiply(std::vector<int>& num, int multiplier){
+    std::vector<int> result;
     int carry =0;
 
     // multiply each digit by the multiplier 
@@ -41,9 +41,9 @@ vector<int> multiply(vector<int>& num, int multiplier){
 
     // the function to calculate factorial using vector
 
-    vector<int> factorial(int n){
+    std::vector<int> factorial(int n){
 
-        vector<int> result;
+        std::vector<int> result;
         result.push_back(1);
 
         for (int i=2; i <= n; i++){
@@ -56,12 +56,12 @@ vector<int> multiply(vector<int>& num, int multiplier){
         }
 // a function to print big numbers stored in vector
 
-void printVnumbe(vector<int> &num) {
+void printVnumbe(std::vector<int> &num) {
 
     for(int i = num.size() -1; i >= 0; i--){
-        cout << num[i];
+        std::cout << num[i];
     }
-    cout << endl;
+    std::cout << std::endl;
 
 }
 }
@@ -73,18 +73,18 @@ void fact_lab2() {
     // and that what we need but if the num was 50 no excute the do loop again
     do{
 
-        cout <<"enter a positive num >100";
-        cin >> input_1;
+        std::cout <<"enter a positive num >100 ";
+        std::cin >> input_1;
 
         if (input_1 <= 100){
-            cout << "error, num must be > 100 " << endl;
+            std::cout << "error, num must be > 100 " << std::endl;
         }
     } while (input_1 <= 100);
 
-    cout << "calculating " << input_1 << "!..."<< endl;
-    vector<int> result = factorial(input_1);
+    std::cout << "calculating " << input_1 << "!..."<< std::endl;
+    std::vector<int> result = m::factorial(input_1);
     
-    cout << input_1 << "! = ";
-    printVnumbe(result);
+    std::cout << input_1 << "! = ";
+    m::printVnumbe(result);
 
 }

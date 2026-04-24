@@ -1,16 +1,15 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
-using namespace std;
+#include "lab_functions.h"
 
 
 namespace{
 //Function to multiply the big numbers by two 
 
-vector<int> multiplyByTwo(vector<int> &num){
+std::vector<int> multiplyByTwo(std::vector<int> &num){
     
-    vector<int> result;
+    std::vector<int> result;
     int carry = 0;
 
     for (int i= 0; i < num.size(); i++ ){
@@ -30,9 +29,9 @@ vector<int> multiplyByTwo(vector<int> &num){
 
 //Function to calcuulate 2^n
 
-vector<int> powerOfTwo(int n){
+std::vector<int> powerOfTwo(int n){
 
-    vector<int> result;
+    std::vector<int> result;
     result.push_back(1);
 
     for(int i= 1; i <= n; i++){
@@ -44,9 +43,9 @@ vector<int> powerOfTwo(int n){
 
 //function to subtrct two big number
 
-vector<int> subBigNumbers(vector<int> & num1, vector<int> &num2){
+std::vector<int> subBigNumbers(std::vector<int> & num1, std::vector<int> &num2){
 
-    vector<int> result;
+    std::vector<int> result;
     int borrow = 0;
 
     for (int i = 0; i < num1.size(); i++){
@@ -75,7 +74,7 @@ vector<int> subBigNumbers(vector<int> & num1, vector<int> &num2){
 
 //Function to cmpare two big numbers returns trus if num1 >= num2
 
-bool isGreaterOrEqual(vector<int>& num1, vector<int>& num2){
+bool isGreaterOrEqual(std::vector<int>& num1, std::vector<int>& num2){
     if(num1.size() != num2.size()){
         return num1.size() > num2.size();
     }
@@ -90,13 +89,13 @@ bool isGreaterOrEqual(vector<int>& num1, vector<int>& num2){
 }
 
 //function to print bignumbers
-void printNumber(vector<int> &num){
+void printNumber(std::vector<int> &num){
 
     for(int i = num.size() - 1; i >= 0; i-- ){
-        cout << num[i];
+        std::cout << num[i];
 
     }
-    cout << endl;
+    std::cout << std::endl;
 }
 }
 
@@ -109,11 +108,11 @@ void power_sub_lab2(){
     // Первый номер
     do{
 
-        cout << " Enter a number biger than 64: " ;
-        cin >> input_1;
+        std::cout << " Enter a number biger than 64: " ;
+        std::cin >> input_1;
 
         if (input_1 <= 64){
-            cout << "errorr must be biger ";
+            std::cout << "errorr must be biger ";
         }
     }while (input_1 <= 64);
 
@@ -122,28 +121,28 @@ void power_sub_lab2(){
 
     do {
 
-        cout << "enter the second number but it must be biger than 64 and smaller than the first number: " ;
-        cin >> input_2 ;
+        std::cout << "enter the second number but it must be biger than 64 and smaller than the first number: " ;
+        std::cin >> input_2 ;
 
         if (input_2 <= 64 || input_2 >= input_1){
-            cout << "error do what i said to youuuu! ";
+            std::cout << "error do what i said to youuuu! ";
         }
     } while (input_2 <= 64 || input_2 >= input_1 );
 
     // CALCULATE THEM
 
-    cout << "calculating 2^" << input_1 << " - 2^" << input_2 << endl;
-    vector<int> power1 = powerOfTwo(input_1);
-    vector<int> power2 = powerOfTwo(input_2);
+    std::cout << "calculating 2^" << input_1 << " - 2^" << input_2 << std::endl;
+    std::vector<int> power1 = powerOfTwo(input_1);
+    std::vector<int> power2 = powerOfTwo(input_2);
 
 
     // subtrect them
 
-    vector<int> result = subBigNumbers(power1, power2);
+    std::vector<int> result = subBigNumbers(power1, power2);
 
     // print result
 
-    cout << "= " <<  endl;
+    std::cout << "= " <<  std::endl;
     printNumber(result);
                   
 }

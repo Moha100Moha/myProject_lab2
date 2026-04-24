@@ -1,9 +1,9 @@
 # ninja log v7
-51	618	7963805648141539	CMakeFiles/myProject_lab2.dir/src/factorial.cpp.obj	e35b303f407f76bc
-33	794	7969933646785321	CMakeFiles/myProject_lab2.dir/src/main.cpp.obj	ef9cf9b4dc232753
-1300	1562	7969933659453092	myProject_lab2.exe	73fbe9c22f6e62
-39	1205	7969933646845188	CMakeFiles/myProject_lab2.dir/src/fact.cpp.obj	1b50b2cd6746ccbf
-57	1223	7969933647025216	CMakeFiles/myProject_lab2.dir/src/power2.cpp.obj	edc632d10ebed998
-70	1237	7969933647155206	CMakeFiles/myProject_lab2.dir/src/subtraction.cpp.obj	b1ea529417d7f003
-81	1244	7969933647255203	CMakeFiles/myProject_lab2.dir/src/sum.cpp.obj	845f14755c0f24f5
-48	1300	7969933646945204	CMakeFiles/myProject_lab2.dir/src/fibonacci.cpp.obj	81d8cf0e92303688
+13	521	7983044025915051	CMakeFiles/myProject_lab2.dir/src/main.cpp.obj	596a860c099965f8
+714	820	7983044032925644	myProject_lab2.exe	fd8d9ecdb50ae300
+18	648	7983044025966167	CMakeFiles/myProject_lab2.dir/src/fact.cpp.obj	5f047779638e50fd
+23	667	7983044026015761	CMakeFiles/myProject_lab2.dir/src/power2.cpp.obj	6b3be619a6095ef9
+26	682	7983044026045871	CMakeFiles/myProject_lab2.dir/src/subtraction.cpp.obj	7490c33ff732e592
+29	697	7983044026064878	CMakeFiles/myProject_lab2.dir/src/sum.cpp.obj	aaa0c3b0eb57bd65
+21	714	7983044025994875	CMakeFiles/myProject_lab2.dir/src/fibonacci.cpp.obj	dda867ffeab7fbde
+32	283	7983044026104884	CMakeFiles/myProject_lab2.dir/src/task2.cpp.obj	4b12f79ade5a6e11

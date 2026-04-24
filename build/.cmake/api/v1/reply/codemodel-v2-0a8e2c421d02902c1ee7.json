@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "myProject_lab2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-myProject_lab2-Debug-d781e8f683d72fad3282.json",
+					"jsonFile" : "target-myProject_lab2-Debug-642a211a1f2dc7be77a7.json",
 					"name" : "myProject_lab2",
 					"projectIndex" : 0
 				}
@@ -50,8 +50,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build",
-		"source" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2"
+		"build" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build",
+		"source" : "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy"
 	},
 	"version" : 
 	{

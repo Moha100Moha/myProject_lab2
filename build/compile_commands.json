@@ -1,38 +1,44 @@
 [
 {
-  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\main.cpp.obj -c C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2\\src\\main.cpp",
-  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/src/main.cpp",
-  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build/CMakeFiles/myProject_lab2.dir/src/main.cpp.obj"
+  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\main.cpp.obj -c \"C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2 - Copy\\src\\main.cpp\"",
+  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/src/main.cpp",
+  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build/CMakeFiles/myProject_lab2.dir/src/main.cpp.obj"
 },
 {
-  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\fact.cpp.obj -c C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2\\src\\fact.cpp",
-  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/src/fact.cpp",
-  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build/CMakeFiles/myProject_lab2.dir/src/fact.cpp.obj"
+  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\fact.cpp.obj -c \"C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2 - Copy\\src\\fact.cpp\"",
+  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/src/fact.cpp",
+  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build/CMakeFiles/myProject_lab2.dir/src/fact.cpp.obj"
 },
 {
-  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\fibonacci.cpp.obj -c C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2\\src\\fibonacci.cpp",
-  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/src/fibonacci.cpp",
-  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build/CMakeFiles/myProject_lab2.dir/src/fibonacci.cpp.obj"
+  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\fibonacci.cpp.obj -c \"C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2 - Copy\\src\\fibonacci.cpp\"",
+  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/src/fibonacci.cpp",
+  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build/CMakeFiles/myProject_lab2.dir/src/fibonacci.cpp.obj"
 },
 {
-  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\power2.cpp.obj -c C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2\\src\\power2.cpp",
-  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/src/power2.cpp",
-  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build/CMakeFiles/myProject_lab2.dir/src/power2.cpp.obj"
+  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\power2.cpp.obj -c \"C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2 - Copy\\src\\power2.cpp\"",
+  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/src/power2.cpp",
+  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build/CMakeFiles/myProject_lab2.dir/src/power2.cpp.obj"
 },
 {
-  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\subtraction.cpp.obj -c C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2\\src\\subtraction.cpp",
-  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/src/subtraction.cpp",
-  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build/CMakeFiles/myProject_lab2.dir/src/subtraction.cpp.obj"
+  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\subtraction.cpp.obj -c \"C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2 - Copy\\src\\subtraction.cpp\"",
+  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/src/subtraction.cpp",
+  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build/CMakeFiles/myProject_lab2.dir/src/subtraction.cpp.obj"
 },
 {
-  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\sum.cpp.obj -c C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2\\src\\sum.cpp",
-  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/src/sum.cpp",
-  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2/build/CMakeFiles/myProject_lab2.dir/src/sum.cpp.obj"
+  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\sum.cpp.obj -c \"C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2 - Copy\\src\\sum.cpp\"",
+  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/src/sum.cpp",
+  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build/CMakeFiles/myProject_lab2.dir/src/sum.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\myProject_lab2.dir\\src\\task2.cpp.obj -c \"C:\\Users\\Mohammed\\Desktop\\Programming\\myProject_lab2 - Copy\\src\\task2.cpp\"",
+  "file": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/src/task2.cpp",
+  "output": "C:/Users/Mohammed/Desktop/Programming/myProject_lab2 - Copy/build/CMakeFiles/myProject_lab2.dir/src/task2.cpp.obj"
 }
 ]
