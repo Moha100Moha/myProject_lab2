@@ -13,5 +13,5 @@ src/sum.cpp
 src/lab_functions.h
 
 src/task2.cpp
-) # executable file is myProject_lab2
+) # executable //file is myProject_lab2
 
